@@ -1,0 +1,12 @@
+numpy>=1.21.0
+scipy>=1.7.0
+scikit-learn>=0.24.0
+
+# GPU加速（可选，强烈推荐）
+# 如果有NVIDIA GPU，请安装CuPy以获得显著性能提升
+# CuPy安装说明: https://docs.cupy.dev/en/stable/install.html
+# 根据您的CUDA版本选择合适的CuPy版本：
+# CUDA 11.x: pip install cupy-cuda11x
+# CUDA 12.x: pip install cupy-cuda12x
+# 如果不安装CuPy，程序会自动使用CPU模式运行
+
